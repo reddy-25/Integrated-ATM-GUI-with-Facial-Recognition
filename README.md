@@ -1,0 +1,2 @@
+# Third-Generation-ATM-s-using-coumputer-vision-techniques
+The objective is to research and develop algorithms for face recognition for third generation ATMs. Also to design front-end for the same. For the same, a face recognition algorithm based on Cafee face detection model and machine learning algorithms like SVM. Using front end, the ATM takes photo and checks whether the face id matches with the database faces on realtime using developed face recognition algorithm.

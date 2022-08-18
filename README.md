@@ -10,3 +10,7 @@ How this works:
 4. This doesn't work when there is only a single user. So one user's details are already placed in the above files.
 5. Once you are enrolled, you will get a message to the phone number - used fast2sms. Since sms sending is valid only for certain time, you might have to change that part of the code to a new url.
 6. Now you will have access to the account and you can do certain transactions like withdraw, deposit etc. Even for these operations, it is implemented so that user gets a messages to their mobile.
+
+The folder face_detection_model contains pretrained models related to Caffe and detects face boundary or face location in the image.
+Then nn4.small2.v1.t7 is used to extract embedding vectors from face location.
+These embedding vectors are fed to the Support Vector Classifier for classification of images.
